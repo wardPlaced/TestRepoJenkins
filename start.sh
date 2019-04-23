@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc /test.c
+gcc /var/lib/jenkins/workspace/pipe/test.c
