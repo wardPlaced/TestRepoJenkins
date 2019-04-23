@@ -3,7 +3,7 @@ node
   stage('compile')
   {
     sh label: '', script: '''#!/bin/bash
-    ./start.sh'''
+    ./var/lib/jenkins/workspace/pipe/start.sh'''
   }
   stage('check')
   {
