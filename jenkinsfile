@@ -1,3 +1,16 @@
- node {
-  gcc test.c -Wall
- }
+node
+{
+  stage('compile')
+  {
+    sh label: '', script: '''#!/bin/bash
+    gcc test.c -Wall'''
+  }
+  stage('check')
+  {
+    fileExists 'a.out'
+  }
+  stage('end')
+  {
+    echo "reached end"
+  }
+}
