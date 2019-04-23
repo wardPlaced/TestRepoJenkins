@@ -3,7 +3,7 @@ node
   stage('compile')
   {
     sh label: '', script: '''#!/bin/bash
-    gcc test.c -Wall'''
+    gcc test.c'''
   }
   stage('check')
   {

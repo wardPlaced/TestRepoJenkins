@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc test.c -Wall
+gcc test.c
