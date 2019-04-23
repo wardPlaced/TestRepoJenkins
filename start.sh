@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc test.c
+gcc /test.c
